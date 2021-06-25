@@ -4,8 +4,8 @@ This contains code that allows users to download videos (or just audio) from you
 
 ## Features
 
-- [x] Machine learning model for voice activity detection (_not recognition_)
-- [x] Generates timestamps for transcript
+- Machine learning model for voice activity detection (_not recognition_)
+- Generates timestamps for transcript
 
 ## Dependencies
 
@@ -14,7 +14,7 @@ This contains code that allows users to download videos (or just audio) from you
 ## Help
 
 ```
-usage: subsync [-h] [--version] [--graph] [-d SECONDS] [-m SECONDS] [-s]
+usage: to-sync [-h] [--version] [--graph] [-d SECONDS] [-m SECONDS] [-s]
                    [--logfile PATH]
                    MEDIA [MEDIA ...]
 
