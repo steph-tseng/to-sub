@@ -14,7 +14,7 @@ This contains code that allows users to download videos (or just audio) from you
 ## Help
 
 ```
-usage: to-sync [-h] [--version] [--graph] [-d SECONDS] [-m SECONDS] [-s]
+usage: tosync [-h] [--version] [--graph] [-d SECONDS] [-m SECONDS] [-s]
                    [--logfile PATH]
                    MEDIA [MEDIA ...]
 

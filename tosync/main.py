@@ -1,3 +1,4 @@
+#%%
 from argparse import ArgumentParser, ArgumentDefaultsHelpFormatter
 import sys
 from pathlib import Path
@@ -6,7 +7,6 @@ if __package__ is None:
     sys.path.insert(0, str(DIR.parent))
     __package__ = DIR.name
 from .media import *
-from .log import logger, init_logger
 from tensorflow.keras.models import load_model
 
 def run():
@@ -25,3 +25,4 @@ def run():
     s.determine_speech(model)
     s.to_srt()
 
+# %%

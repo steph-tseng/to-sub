@@ -9,7 +9,7 @@ README = (HERE / "README.md").read_text()
 
 # This call to setup() does all the work
 setup(
-    name="to-sub",
+    name="tosync",
     version="1.0.1",
     description="Transcript to subtitles",
     long_description=README,
@@ -18,12 +18,12 @@ setup(
     author="Stephanie Tseng",
     author_email="lordnyx1031@gmail.com",
     classifiers=["Programming Language :: Python :: 3.9"],
-    packages=["to-sub"],
+    packages=["tosync"],
     include_package_data=True,
     install_requires=["feedparser", "html2text"],
     entry_points={
         "console_scripts": [
-            "to-sub=reader.__main__:main",
+            "tosync=reader.__main__:main",
         ]
     },
 )
